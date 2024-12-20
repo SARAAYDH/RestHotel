@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut Icon" href="img/hotel.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rest Hotel</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <div class="navbar">
+      <input type="checkbox" class="checkbox" id="click" hidden />
+
+      <!-- sidebar -->
+      <div class="sidebar">
+        <label for="click">
+          <div class="menu-icon">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+        </label>
+
+        <ul class="social-icons-list">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" class="social-link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://google.com/" class="social-link" target="_blank"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="social-link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="year">
+          <p>2024</p>
+        </div>
+      </div>
+      <!-- end of sidebar -->
+
+      <!-- navigation -->
+      <nav class="navigation">
+        <div class="navigation-header">
+          <h1 class="navigation-heading">Rest Hotel</h1>
+
+          <form class="navigation-search">
+            <input
+              type="text"
+              class="navigation-search-input"
+              placeholder="Search..."
+            />
+            <button class="navigation-search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#index" class="navigation-link">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#about-us" class="navigation-link">About Us</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#rooms" class="navigation-link">Rooms</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#customers" class="navigation-link">Customers</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#contact" class="navigation-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="copyright">
+          <p>&copy; 2024. Rest Hotel. All Rights Reserved</p>
+        </div>
+      </nav>
+      <!-- end of navigation -->
+    </div>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="header" id="index">
+      <div class="brand">
+        <div>
+          <img src="img/hotel.png" width="60" />
+        </div>
+
+        <h3 class="hotel-heading">Rest Hotel</h3>
+      </div>
+
+      <div class="banner">
+        <h1 class="banner-heading">Welcome to Rest Hotel</h1>
+        <p class="banner-paragraph">Discover Restfulness</p>
+        <button class="banner-button">Check Out</button>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- about us -->
+    <section class="about-us" id="about-us">
+      <div class="about-us-content">
+        <h1 class="about-us-heading">About Us</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+        <h3 class="sub-heading">Rest Hotel</h3>
+        <p class="about-us-paragraph">
+          Welcome to Rest Hotel, where comfort meets elegance in the heart of
+          the city. Our luxurious rooms, world-class dining, and personalized
+          services ensure a memorable stay for every guest. Whether you're here
+          for business or leisure, Rest Hotel is your perfect escape.
+        </p>
+        <button class="about-us-btn">
+          Read More
+          <i class="fas fa-angle-double-right btn-arrow btn-arrow"></i>
+        </button>
+      </div>
+
+      <div class="about-us-images">
+        <img src="img/img-1.jpg" class="image img-1" />
+        <img src="img/img-2.jpg" class="image img-2" />
+        <img src="img/img-3.jpg" class="image img-3" />
+        <img src="img/img-4.jpg" class="image img-4" />
+      </div>
+    </section>
+    <!-- End about us -->
+    <!-- rooms -->
+    <section class="rooms" id="rooms">
+      <div class="common-header">
+        <h1 class="common-heading">Rooms In Rest Hotel</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+      </div>
+
+      <div class="rooms-cards-wrapper">
+        <div class="room-card">
+          <img src="img/1.jpg" class="room-img" />
+          <div class="room-card-content">
+            <h4 class="room-card-heading">Single Room</h4>
+            <p class="room-card-paragraph">
+              A cozy and comfortable space for solo travelers.
+            </p>
+            <p class="room-price">SAR 400.00</p>
+            <button class="room-card-btn">
+              Book Now
+              <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img src="img/2.jpg" class="room-img" />
+          <div class="room-card-content">
+            <h4 class="room-card-heading">Double Room</h4>
+            <p class="room-card-paragraph">
+              A roomy space for two people to relax.
+            </p>
+            <p class="room-price">SAR 800.00</p>
+            <button class="room-card-btn">
+              Book Now
+              <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img src="img/lux.jpg" class="room-img" />
+          <div class="room-card-content">
+            <h4 class="room-card-heading">Lux</h4>
+            <p class="room-card-paragraph">
+              A large, elegant room for a perfect stay.
+            </p>
+            <p class="room-price">SAR 1200.00</p>
+            <button class="room-card-btn">
+              Book Now
+              <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+        <div class="room-card">
+          <img src="img/vip1.jpg" class="room-img" />
+          <div class="room-card-content">
+            <h4 class="room-card-heading">VIP</h4>
+            <p class="room-card-paragraph">
+              A special room with extra comfort and luxury.
+            </p>
+            <p class="room-price">SAR 1600.00</p>
+            <button class="room-card-btn">
+              Book Now
+              <i class="fas fa-angle-double-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="rooms-btn-wrapper">
+        <button class="rooms-btn">Check All Rooms</button>
+      </div>
+    </section>
+    <!-- end of rooms -->
+    <!-- customers -->
+    <section class="customers" id="customers">
+      <div class="common-header">
+        <h1 class="common-heading">Our Customers</h1>
+        <div class="underline">
+          <div class="small-underline"></div>
+          <div class="big-underline"></div>
+        </div>
+      </div>
+
+      <p class="customers-paragraph">
+        We take pride in providing exceptional service and creating memorable
+        experiences for our guests. Hear what they have to say about their stay!
+      </p>
+
+      <div class="customers-card-wrapper">
+        <div class="customer-card customer1">
+          <div class="customer-image-wrapper">
+            <img src="img/customer.png" class="customer-image" />
+          </div>
+          <div class="customer-info">
+            <h4 class="customer-fullname">Verified Customer</h4>
+            <p class="customer-paragraph-2">
+              "I had a fantastic experience at this hotel. The amenities were
+              top-notch, and the service was exceptional. Highly recommended for
+              anyone visiting the area!"
+            </p>
+          </div>
+        </div>
+        <div class="customer-card">
+          <div class="customer-image-wrapper">
+            <img src="img/customer.png" class="customer-image" />
+          </div>
+          <div class="customer-info">
+            <h3 class="customer-fullname">Verified Customer</h3>
+            <p class="customer-paragraph-2">
+              "The stay at this hotel was amazing! The staff were friendly, the
+              rooms were clean and comfortable, and the location was perfect.
+              Will definitely stay here again!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of customers -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="main-part">
+        <div class="footer-list-wrapper">
+          <h3 class="footer-heading">Rest Hotel</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link"> support@Resthotel.com </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link">
+                Riyadh, Nowhere Street 123
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#" class="footer-list-link"> Tel: +123 456 789 </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-list-wrapper">
+          <h3 class="footer-heading">Explore</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="#index" class="footer-list-link"> Home </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#about-us" class="footer-list-link"> About Us </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#rooms" class="footer-list-link"> Rooms </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#customers" class="footer-list-link"> Customers </a>
+            </li>
+            <li class="footer-list-item">
+              <a href="#contact" class="footer-list-link"> Contact </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact" id="contact">
+          <h3 class="footer-heading">Contact</h3>
+          <p>Sign Up for News</p>
+          <form class="footer-form">
+            <input
+              type="text"
+              class="footer-input"
+              placeholder="Your email..."
+            />
+            <button class="footer-btn">Sign Up</button>
+          </form>
+        </div>
+
+        <div class="gallery">
+          <h3 class="footer-heading">Gallery</h3>
+          <div class="gallery-images">
+            <div class="image-wrapper">
+              <img src="img/g-1.jpg" class="footer-image" />
+            </div>
+            <div class="image-wrapper">
+              <img src="img/g-2.jpg" class="footer-image" />
+            </div>
+            <div class="image-wrapper">
+              <img src="img/g-3.jpg" class="footer-image" />
+            </div>
+            <div class="image-wrapper">
+              <img src="img/g-4.jpg" class="footer-image" />
+            </div>
+            <div class="image-wrapper">
+              <img src="img/g-5.jpg" class="footer-image" />
+            </div>
+            <div class="image-wrapper">
+              <img src="img/g-6.jpg" class="footer-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="creator-part">
+        <div class="copyright-text">
+          <p>Copyright &copy; 2024. Rest Hotel. All Rights Reserved</p>
+        </div>
+
+        <div class="text-right">
+          <p>Made by Sara</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer -->
+  </body>
+</html>
